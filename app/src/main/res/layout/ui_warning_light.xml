@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout_warning_light"
+    android:layout_marginTop="30dp"
+    android:visibility="gone">
+    <ImageView
+        android:id="@+id/imageView_warning_light1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:src="@drawable/warning_light_on"/>
+
+    <ImageView
+        android:id="@+id/imageView_warning_light2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:src="@drawable/warning_light_off"/>
+
+</LinearLayout>

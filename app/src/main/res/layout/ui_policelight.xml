@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameLayout_police_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F00"
+    android:visibility="gone">
+
+    <com.lilang.superflashlight.widget.HideTextView
+        android:id="@+id/textView_hide_police_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="警灯"
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+</FrameLayout>
